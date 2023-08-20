@@ -1,0 +1,23 @@
+.forminput input,select{
+    padding: 10px 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    width: 50vh;
+    font-size: 1em;
+
+}
+
+.forminput input:enabled,select:enabled{
+    border: 2px solid #c4c2c2;
+    transition: 0.5s;
+}
+
+.forminput input:hover,select:hover{
+    border: 2px solid #000;
+    transition: 0.5s;
+}
+label{
+    margin: 20px;
+}
