@@ -3,7 +3,7 @@ import React from 'react'
 
 const CostumSelect = (props) => {
   return (
-    <div className=''>
+    <div className='forminput'>
       <label>{props.label}</label>
       <select>
         <option>Adrar</option>
